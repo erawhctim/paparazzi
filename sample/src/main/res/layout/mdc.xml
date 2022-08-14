@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@color/launchBackground"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+  <ImageView
+      android:layout_width="25dp"
+      android:layout_height="25dp"
+      android:src="@drawable/camera"
+      />
+
+  <com.google.android.material.button.MaterialButton
+      style="@style/Widget.MaterialComponents.Button"
+      android:layout_width="match_parent"
+      android:layout_height="40dp"
+      android:gravity="center"
+      android:layout_margin="8dp"
+      android:text="Material Button"
+      android:textColor="#FFFFFF"
+      app:colorPrimary="#FF0000"
+      app:cornerRadius="20dp"
+      />
+
+</LinearLayout>
